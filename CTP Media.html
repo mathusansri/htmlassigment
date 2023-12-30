@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <b> <h1>Canada Tamil Pasanga</h1> </b>
+        <title>CTP Media</title>
+        <style>
+            .container {
+                display: flex;
+                background-color: yellow;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+
+            }
+            .box{
+                padding: 10px;
+                border: 1px solid brown;
+                transition: background-color 0.3s;
+            }
+            .box.hover{
+                background-color: aliceblue;
+                cursor: pointer;
+            }
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 1920;
+                width: 1080;
+
+            }
+            .container2{
+                display: flex;
+            flex-wrap: wrap;
+
+            .box2 {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        .box:nth-child(2){
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+            }
+            .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .grid-item {
+            padding: 20px;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+            .header-image {
+                width: 100px; /* Adjust the width of your header image as needed */
+                height: 50px; /* Adjust the height of your header image as needed */
+                background-image: url(header.png); /* Same image path as in .container */
+                background-size: cover; /* This ensures that the background image covers the entire header image div */
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-image"></div>
+            <div class="box">HOME</div>
+            <div class="box">ABOUT</div>
+            <div class="box">NEWS</div>
+            <div class="box">CONTACT US</div>
+        </div>
+        <div>
+            <img src="colombo nagar 1.jpg" alt="media 2" class="center" />
+        </div>
+        <div>
+            <head><b>ABOUT ME</b> </head>
+            <p>Toronto,Canada based production company providing oppurtunity for artists around the world</p>
+            <img src="vanarosa 1.jpg" sizes="10px,20px" class="center">
+        </div>
+        <div>
+             <b>Our Songs</b>
+        
+
+        </div>
+        <div class="container2">
+            <div class="box2" style="background-color: blueviolet;">Colombo Nagar</div>
+            <div class="box2" style="background-color: antiquewhite;">Rosa</div>
+            <div class="box2" style="background-color: green;">Kanavu Thevathai</div>
+        </div>
+        <div>
+            <h><b>Contact Us</b></h>
+             <div class="grid-container">
+                <div class="grid-item">Name</div>
+                <div class="grid-item">Email</div>
+                <div class="grid-item">Message</div>
+             </div>
+        </div>
+        <div>
+            @Canada Tamil Pasanga.ltd
+        </div>
+    </body>
+</html>
